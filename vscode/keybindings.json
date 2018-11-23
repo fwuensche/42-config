@@ -6,6 +6,10 @@
 	{
 		"key": "alt+cmd+up",
 		"command": "workbench.action.focusActiveEditorGroup"
+	},
+	{
+		"key": "cmd+y",
+		"command": "redo"
 	}
 ]
 
