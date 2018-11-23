@@ -11,3 +11,4 @@ Here are a few propositions on how to contribute:
 - set mouse right button to `secondary button` (many times it is set to primary)
 - set mouse wheel to `button 3` (many times it is turned off)
 - set mouse to vertical scroll only
+- set keyboard to us international
