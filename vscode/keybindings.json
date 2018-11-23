@@ -1,0 +1,11 @@
+[
+	{
+		"key": "alt+cmd+down",
+		"command": "workbench.action.terminal.focus"
+	},
+	{
+		"key": "alt+cmd+up",
+		"command": "workbench.action.focusActiveEditorGroup"
+	}
+]
+

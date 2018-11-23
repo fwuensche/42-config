@@ -1,0 +1,18 @@
+# spectacle
+cp ~www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+
+# vscode
+cp ~/www/config/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+cp ~/www/config/vscode/keybindings.json $HOME/Library/Application\ Support/Code/User/keybindings.json
+
+# show date on status bar
+defaults write com.apple.menuextra.clock "DateFormat" "d MMM w HH:mm" \
+  && killall SystemUIServer \
+  && sleep 2 && defaults read com.apple.menuextra.clock "DateFormat"
+
+# remap right ctrl to right alt
+hidutil property --set '{"UserKeyMapping":
+    [{"HIDKeyboardModifierMappingSrc":0x7000000e4,
+	      "HIDKeyboardModifierMappingDst":0x7000000e6}]
+}'
+
