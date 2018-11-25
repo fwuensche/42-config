@@ -12,3 +12,4 @@ Here are a few propositions on how to contribute:
 - set mouse wheel to `button 3` (many times it is turned off)
 - set mouse to vertical scroll only
 - set keyboard to us international
+- require password immediately after sleep or screen saver begins
