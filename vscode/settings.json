@@ -3,5 +3,6 @@
 	"files.insertFinalNewline": true,
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": false,
-	"editor.useTabStops": false
+	"editor.useTabStops": false,
+	"editor.rulers": [80]
 }
