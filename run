@@ -1,5 +1,7 @@
 # spectacle
-cp ~www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+cp ~/www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+kill Spectacle
+open -a Spectacle
 
 # vscode
 cp ~/www/config/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
@@ -15,4 +17,3 @@ hidutil property --set '{"UserKeyMapping":
     [{"HIDKeyboardModifierMappingSrc":0x7000000e4,
 	      "HIDKeyboardModifierMappingDst":0x7000000e6}]
 }'
-
