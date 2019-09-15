@@ -12,6 +12,7 @@ The script does:
 
 - setup Spectacle shortcuts (e.g, try `cmd+option` plus `]` or `=` or `f`)
 - right ctrl key is remapped to right alt (so you can easily navigate words)
+- automatically hide the dock and remove its slow animation
 - shows disk space left in your 42 account
 
 # Contributing
@@ -25,4 +26,3 @@ Here are a few propositions on how to contribute:
 - set mouse to vertical scroll only
 - set keyboard to us international
 - require password immediately after sleep or screen saver begins
-- automatically hide and show the dock

@@ -1,5 +1,3 @@
-read -p "Enter your 42 username: "  username
-
 # spectacle
 echo "Download Spectacle shortcuts file..."
 curl -sO https://raw.githubusercontent.com/fwuensche/42-config/master/Spectacle/Shortcuts.json
@@ -35,5 +33,5 @@ defaults write com.apple.dock autohide -bool true && \
 # rm -rf ~/Library/Caches
 
 # show used disk space
-echo; df -h | grep $username | awk '{print "You are currently using "$5" of disk space"}'
+echo; df -h | tail -n 1 | awk '{print "You are currently using "$5" of disk space"}'
 
