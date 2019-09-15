@@ -1,5 +1,7 @@
 # spectacle
-cp ~/www/config/Spectacle/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+echo "Copying Spectacle shortcuts file..."
+cp https://raw.githubusercontent.com/fwuensche/42-config/master/config.sh ~/Library/Application\ Support/Spectacle/Shortcuts.json
+echo "Trying to reset Spectacle..."
 pkill Spectacle
 open -a Spectacle
 
@@ -20,5 +22,5 @@ hidutil property --set '{"UserKeyMapping":
 # rm -rf ~/Library/Caches
 
 # show used disk space
-# df -h | grep fwuensch
+df -h | grep $USERNAME
 
