@@ -1,6 +1,20 @@
-# Usage
+<img
+  src="https://raw.githubusercontent.com/kube/vscode-42header/master/42.png" 
+  width=128>
 
-Just run the run file, i.e, `sh run`
+# Installing
+
+Run this command from your terminal:
+
+```sh
+curl -fsSL https://rawgit.com/fwuensche/42-config/master/install.sh | zsh
+```
+
+The script does: 
+
+- setup Spectacle shortcuts (e.g, try `cmd+option` plus `]` or `=` or `f`)
+- right ctrl key is remapped to right alt (so you can easily navigate words)
+- shows disk space left in your 42 account
 
 # Contributing
 
