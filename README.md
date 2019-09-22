@@ -5,7 +5,7 @@
 Run this command from your terminal:
 
 ```sh
-curl -fsSL https://rawgit.com/fwuensche/42-config/master/install.sh | zsh
+curl -fsSL https://raw.githubusercontent.com/fwuensche/42-config/master/config.sh | zsh
 ```
 
 The script does: 
